@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .container {
+    height: 100vh;
+    width: 1000px;
+    display: grid;
+    gap: 10px;
+    padding: 20px 0px 20px 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .item-1 {
+    font-size: 5rem;
+    width: 300px;
+    height: 520px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 2;
+
+  }
+  .item-2 {
+    font-size: 5rem;
+    width: 620px;
+    height: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 2;
+   
+
+  }
+  .item-4 {
+    font-size: 5rem;
+    width: 300px;
+    height: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(251, 255, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+  }
+  .item-6 {
+    font-size: 5rem;
+    width: 300px;
+    height: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 3, 136);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+  }
+  .item-7 {
+    font-size: 5rem;
+    width: 300px;
+    height: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(1, 22, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+  }
+  .item-8 {
+    font-size: 5rem;
+    width: 300px;
+    height: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(134, 23, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .item-9 {
+    font-size: 5rem;
+    width: 300px;
+    height: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(26, 155, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+  }
+  .item-10 {
+    font-size: 5rem;
+    width: 300px;
+    height: 510px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(4, 136, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 2;
+    
+
+  }
+  .item-11 {
+    font-size: 5rem;
+    width: 300px;
+    height: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(225, 172, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .item-12 {
+    font-size: 5rem;
+    width: 300px;
+    height: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(5, 50, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .item-13 {
+    font-size: 5rem;
+    width: 300px;
+    height: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(163, 65, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .item-15 {
+    font-size: 5rem;
+    width: 610px;
+    height: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(20, 3, 84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 2;
+  }

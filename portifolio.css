@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.home{
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8), url('./students.png'));
+    background-position: center;
+    background-size: cover;
+
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+}
+.navbar li a{
+  border: none;
+
+}
+.navbar a{
+    color: rgb(8, 4, 41);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(8, 4, 41);
+    color: white;
+    transition-duration: .9s;
+}
+.navbar li{
+    float: left;
+}
+.bar-holder{
+    position: absolute;
+    top: 20px;
+    left: 130px;
+}
+.illustration-hol{
+    width: 640px;
+    height: 654px;
+}
+.illustration{
+    width: 100%;
+    height: 100%;
+}
+.homtext-hol{
+    width: 700px;
+    height: 300px;
+    padding-top: 200px;
+}
+.h1-hol{
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+.h1-hom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(42, 41, 45);
+}
+.para-hom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(160, 160, 161);
+    margin-left: 20px;
+}
+.para-hm-hol{
+    padding: 0px 10px 0px 10px;
+}
